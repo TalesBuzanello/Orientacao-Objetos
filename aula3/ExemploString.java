@@ -52,6 +52,13 @@ public class ExemploString {
 		String[] arrayValores = valores.split("/");
 		System.out.println("arrayValores[1] = " 
 			+ arrayValores[1]);
+			
+		//Percorra o vetor arrayValores mostrando todos os valores na tela
+		
+		for (int i = 0; i <= arrayValores.length; i++){
+			System.out.println("O número:" + arrayValores[i]);
+			}
+			
 
 	  }
 }
